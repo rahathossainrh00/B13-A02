@@ -232,3 +232,60 @@ nav .btn a{
     color: white;
     font-size: 16px;
 }
+
+/* grid section */
+
+.grid-section{
+    background-color: #230E3D;
+    padding: 120px 0;
+
+}
+
+.grid-container{
+    color: white;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    
+}
+
+.grid-container h1{
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.grid{
+    text-align: left;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.box{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+    align-content: center;
+}
+
+.box img, h3{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.box p{
+    font-weight: 300;
+    line-height: 24px;
+}
+
+
+.big-box{
+    grid-row: span 2;
+}
+
+.long-box{
+    grid-column: span 2;
+}
+

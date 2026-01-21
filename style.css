@@ -391,3 +391,42 @@ nav .btn a{
     align-items: center;
     justify-content: center;
 }
+
+
+/* footer */
+
+footer{
+    background-image: url(./assets/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.footer-container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 120px 0 ;
+    text-align: center;
+    color: white;
+}
+
+.footer-container .logo{
+    margin-bottom: 32px;
+    font-size: 4em;
+
+}
+
+.footer-socials div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 40px;
+}
+
+.footer-socials li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+}

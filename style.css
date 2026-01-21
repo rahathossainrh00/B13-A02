@@ -289,3 +289,105 @@ nav .btn a{
     grid-column: span 2;
 }
 
+
+/* featured section */
+
+.featured{
+    background-color: #1A0B2E;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.episodes h1{
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.vid-containers{
+    display: flex;
+    gap: 30px;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-cards{
+    text-align: left;
+    background-color: #250D44;
+    border-radius: 40px;
+    margin-bottom: 120px;
+}
+
+
+
+.video-cards iframe{
+    border-radius:  40px 40px 0 0;
+    width: 100%;
+}
+.vid-text{
+    padding: 24px;
+    font-size: 400px;
+}
+
+.vid-text h2{
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.vid-text p{
+    font-size: 16px;
+    margin-bottom: 12px;
+    line-height: 24px;
+}
+
+.vid-text .time{
+    display: flex;
+    gap:6px ;
+    color: #00FF88;
+}
+
+.vid-text img{
+    width: 20px;
+    height: 20px;
+}
+
+.host{
+    display: flex;
+    gap: 24px;
+    padding: 40px;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    margin-top: 40px;
+}
+
+.featured-text h1{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.featured-text p{
+    font-weight: 400;
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+.socials{
+    display: flex;
+    gap: 8px;
+}
+
+.circle{
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

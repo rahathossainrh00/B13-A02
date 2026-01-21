@@ -179,3 +179,56 @@ nav .btn a{
     
     font-weight: 700;
 }
+
+/* about section */
+.about{
+    background-color:#1A0B2E;
+    width: 100%;
+}
+
+.about-container{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 75%;
+    padding: 50px 0 120px;
+}
+
+.about-container .text{
+    color: white;
+}
+
+.about-container .text h1{
+    font-size: 48px;
+    margin-bottom: 16px;  
+}
+.about-container .text p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.about-container hr{
+    margin-bottom: 80px;
+    stroke-width: 1px;
+}
+
+.about-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.about-container .stats h1{
+    color: #00FF88;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.about-container .stats p{
+    color: white;
+    font-size: 16px;
+}
